@@ -1,0 +1,41 @@
+---
+title: "Formation cheffe de projet open data"
+subtitle: "Jour 3 : la gestion de projet open data 2 "
+author: "Sylvain Lapoix, Datactivist"
+date: "08/12/2020"
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+params:
+  event: CA LR - Formation OD - 3
+  slug: ca_larochelle_formation
+  mission: formation_cheffeproj
+  session: jour03
+
+---
+layout: true
+  
+
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='0px'></center></span></div>")` 
+
+
+---
+
+
+background-image: url("https://media.giphy.com/media/fVeAI9dyD5ssIFyOyM/giphy.gif")
+class: center, top, inverse
+
+# On y travaille, on y travaille ... et on voit ça le 8 décembre !
+
+
+---
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [sylvain@datactivist.coop](mailto:sylvain@datactivist.coop)
