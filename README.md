@@ -4,7 +4,7 @@
 
 
 ### Formateur
-* Sylvain Lapoix [Datactivist](https://datactivist.coop/))
+* Sylvain Lapoix [Datactivist](https://datactivist.coop/)
 
 ### Programme
 

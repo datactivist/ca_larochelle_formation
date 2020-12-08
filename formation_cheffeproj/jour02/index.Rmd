@@ -42,6 +42,16 @@ Chaque étape détaille :
 ![](./img/cycle_ouverture_donnee.png)
 ]
 
+```{r setup, include=FALSE, results='hide', message=FALSE, warning=FALSE}
+
+knitr::opts_chunk$set(echo=FALSE,
+                      warning=FALSE,
+                      message=FALSE)
+
+options(knitr.kable.NA = '')
+library(tidyverse)
+
+```
 
 ---
 
@@ -268,22 +278,26 @@ class: center, top, inverse
 ## 3.1 Animer en interne
 
 L'animation en interne vise plusieurs objectifs dans la feuille de route :
-* associer les acteur·rices de l'open data aux décisions pour assurer fluidité et concertation autour de la publication des données ;
-* partager les bonnes pratiques pour créer une culture commune de l'open data et aider à faire émerger des idées ;
-* identifier les problèmes qui se présentent et les anticiper pour proposer des solutions d'organisation aux services ;
-* valoriser le travail d'ouverture et son impact concret en faisant connaître les réutilisations et publications.
+* associer les acteur·rices de l'open data aux décisions pour .red[assurer fluidité et concertation] autour de la publication des données ;
+* partager les bonnes pratiques pour créer .red[une culture commune] de l'open data et aider à faire émerger des idées ;
+* identifier les problèmes qui se présentent et les anticiper pour proposer .red[des solutions d'organisation] aux services ;
+* valoriser le travail d'ouverture et .red[son impact concret] en faisant connaître les réutilisations et publications.
 
-A chaque volet peuvent correspondre de multiples actions selon les moyens, les temps et les priorités de la politique open data interne.
+A chaque volet peuvent correspondre de multiples actions selon les moyens, le temps et les priorités de la politique open data interne.
 
 Derrière chaque objectif transparaît un des rôles centraux de la/du chef·fe de projet :
 
 --
 
+.center[
 #### .red[responsable de la sensibilisation à l'open data]
+]
 
 ---
 
 ### Un discours adapté aux acteurs
+
+.center[*Quelle est la motivation de chacun·e de participer à l'ouverture de données ?*]
 
 Extrait du [Guide de lancement open data](http://www.opendatalab.fr/laboratoire/le-kit-collectivites) de l'[Open data lab](http://www.opendatalab.fr/laboratoire/le-kit-collectivites) d'Occitanie.
 
@@ -296,13 +310,13 @@ Extrait du [Guide de lancement open data](http://www.opendatalab.fr/laboratoire/
 #### Exemple de méthodologie : la Wanted data list
 
 * *"De quelle donnée a besoin mon service ?"*
-* *"Quelles sont les demandes des usager·ères ?"*
-* *"De quelles données d'un autre service pourrais-je avoir besoin ?"*
+* *"Quelles données un·e usager·ères / association / etc. m'a déjà été demandée par mail ?"*
+* *"Quelles données avez-vous déjà demandé à un autre service ?"*
 * etc.
 
 Réunissez les membres d'un service autour de ces quelques questions dans le cadre d'un atelier Wanted Data List et établissez avec elles et eux .red[**une liste collaborative des besoins réels**]. Les leurs mais aussi ceux de la société civile ou des autres services ...
 
-D'abord par groupe pour réuni·es pour partager leurs constats, les agent·es auront l'occasion d'envisager l'open data sous un autre angle : celui du service public (pour l'externe) et celui de l'outil métier (pour l'interne).
+D'abord par groupe pour réuni·es pour partager leurs constats, les agent·es auront l'occasion d'envisager l'open data sous un autre angle : celui du service public (pour l'externe) et celui de l'outil métier (pour l'interne). Et pourquoi pas les transformer en offre d'open data ?
 
 L'occasion de s'inspirer de [la méthode Dat'Accélère](https://medium.com/datactivist/datacc%C3%A9l%C3%A8re-des-ateliers-et-une-m%C3%A9thodologie-pour-booster-les-projets-avec-les-donn%C3%A9es-9b40776891a4), élaborée par Samuel Goëta chez Datactivist.
 
@@ -314,7 +328,7 @@ L'occasion de s'inspirer de [la méthode Dat'Accélère](https://medium.com/data
 
 Du café, quelques viennoiseries, un vidéoprojecteur et un·e invité·e (ou, par temps de Covid, un rendez-vous Zoom ou Skype) :
 
-> *"Bonjour, je m'appelle Séverine et je travaille pour la Communauté d'agglomération du Grand Poitiers sur les questions de données. Je suis venue vous parler de notre projet Data Sandwich pour valoriser notre plateforme d'open data !"*
+> *"Bonjour, je m'appelle Séverine et je travaille pour la Communauté d'agglomération du Grand Poitiers sur les questions de données. Je suis venue vous parler de l'Infolab mis en place pour valoriser notre plateforme d'open data !"*
 
 Sur la base du volontariat, pourquoi ne pas organiser un rendez-vous mensuel pour rencontrer un·e acteur·rice de l'open data, que ce soit côté réutilisation ou côté production, en interne ou en externe. En temps limité, avec une présentation partagée par la suite et une séance de question réponse, vous vous assurerez que, une fois par mois, la donnée est un sujet de discussion entre les services dans un cadre convivial.
 
@@ -330,7 +344,7 @@ Sur la base du volontariat, pourquoi ne pas organiser un rendez-vous mensuel pou
 
 Plutôt que de transformer votre boîte mail en service après-vente de la politique d'open data, pourquoi ne pas ouvrir une page pour recueillir les besoins et miser sur l'intelligence collective ?
 
-Un forum bien configuré peut aider à centraliser les questions (qu'elles soient techniques, juridiques ou pratiques) et à éviter les doublons. Pourquoi ne pas s'inspirer de [#TeamOpenData](teamopendata.org/) et de son interface basée sur le logiciel open source de forum [Discourse](https://www.discourse.org/) ?
+Un forum bien configuré peut aider à centraliser les questions (qu'elles soient techniques, juridiques ou pratiques) et à éviter les doublons. Pourquoi ne pas s'inspirer de [#TeamOpenData](https://teamopendata.org/) et de son interface basée sur le logiciel open source de forum [Discourse](https://www.discourse.org/) ?
 
 C'est aussi un puissant outil d'identification de besoin de formation et de recrutement des participant·es pour d'autres actions d'animation interne !
 
@@ -357,7 +371,7 @@ Ex. : [Hackathon Amif en ligne (décembre 2020)](https://www.linkedin.com/posts/
 
 
 .pull-right[#### Hackaviz, le concours (et ses récompenses !)
-Ex. : [Hackaviz Toulouse 2020 (mai 2020)](http://toulouse-dataviz.fr/hackaviz-2020)
+Ex. : [Hackaviz Toulouse 2020 (mars 2020)](http://toulouse-dataviz.fr/hackaviz-2020)
 
 ![](http://toulouse-dataviz.fr/wp-content/uploads/2020/01/logo_hackaviz_site_LD-768x993.jpg)
 
@@ -450,16 +464,7 @@ class: center, top, inverse
 
 ---
 
-### Cartographie 1 : les collectivités ouvertes en Nouvelle Aquitaine
-
-```{r carte_collterr_NA}
-
-```
-
----
-
-#### Ressources
-
+#### Quelques ressources
 1. la liste complète des collectivités territoriales (établie à partir de la base [OpenDataSoft pour les communes](https://public.opendatasoft.com/explore/dataset/contours-geographiques-simplifies-des-communes-2019/table/) et du [recensement de collectivités territoriales.gouv.fr](https://www.collectivites-locales.gouv.fr/liste-et-composition-2019-0)) ;
 2. la liste des collectivités ouvertes publiées par l'Observatoire des collectivités territoriales d'OpenDataFrance, [éditions octobre 2020](https://www.data.gouv.fr/fr/datasets/donnees-de-lobservatoire-open-data-des-territoires-edition-2020-1/), également disponible [au format Airtable](https://airtable.com/shrKrV6KY7BlhHDx7/tblt8JGHVJnYRCSeA/viw769tfpzuEYQaQI) ;
 3. la recension des plateformes territoriales de l'open data réalisée par nos soins [sur Airtable également](https://airtable.com/shrmZOh5If14Q1PVN/tblwklJPsyayeH5lX).
@@ -471,7 +476,28 @@ background-image: url("https://media.giphy.com/media/xT9IgsTMqIWwi21XWM/giphy.gi
 class: center, top, inverse
 
 
-## 4.2 Quelles sont les collectivités comparables à LR ?
+## 4.2 Quelles sont<br>les collectivités comparables<br>à La Rochelle ?
+
+---
+
+
+### Les EPCI comparables en France
+
+[Version carte](https://www.google.com/maps/d/edit?hl=en&mid=1pgZQ1af3pALcvVMmIaOGzqjUgo0r294g&ll=26.43248944913897%2C-16.20770458816559&z=4)
+
+```{r epci_comme_lr}
+epci_lr_like <- read_csv("../data/epci_comme-lr.csv") %>% 
+  dplyr::select(-geometry, -region)
+
+DT::datatable(
+  epci_lr_like,
+  extensions = 'FixedColumns',
+  options = list(
+  scrollCollapse = TRUE,
+  pageLength = 4)
+)
+
+```
 
 
 ---
